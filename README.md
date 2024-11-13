@@ -3,6 +3,11 @@
 ## Descripción
 Este proyecto consiste en una fuente de tensión regulable que incorpora un generador de señales, ideal para aplicaciones de laboratorio o experimentación en electrónica. La fuente de alimentación proporciona salidas de voltaje positivo y negativo reguladas mediante los integrados LM7812, LM7912 y un voltaje ajustable con el LM317. La parte de generación de señales es controlada por el integrado **XR2206CP**, que permite generar señales senoidales, triangulares y cuadradas, cuenta con distintas escalas de frecuencias de trabajo , asi tambien como un ajuste fino y grueso de ellas ademas de su variacion de amplitud.
 
+<p align="center">
+  <img src="Imagenes/Bueno%20y%20malo.jpg" alt="Descripción de la imagen" width="500">
+</p>
+
+#el gordo se la come
 ## Especificaciones
 | Componente | Función                |
 |------------|------------------------|
