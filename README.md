@@ -1,34 +1,27 @@
 # Fuente de Tensión Regulable con Generador de Señales
 
 ## Descripción
-Este proyecto consiste en una fuente de tensión regulable que incorpora un generador de señales, ideal para aplicaciones de laboratorio o experimentación en electrónica. La fuente de alimentación proporciona salidas de voltaje positivo y negativo reguladas mediante los integrados LM7812, LM7912 y un voltaje ajustable con el LM317. La parte de generación de señales es controlada por el integrado **XR2206CP**, que permite generar señales senoidales, triangulares y cuadradas, cuenta con distintas escalas de frecuencias de trabajo , asi tambien como un ajuste fino y grueso de ellas ademas de su variacion de amplitud.
+Este proyecto consiste en una fuente de tensión regulable que incorpora un generador de señales, ideal para aplicaciones de laboratorio o experimentación en electrónica. La fuente de alimentación proporciona salidas de voltaje positivo y negativo y una salida de tension regulable. La parte de generación de señales es controlada por el integrado **XR2206CP**, que permite generar señales senoidales, triangulares y cuadradas, cuenta con distintas escalas de frecuencias de trabajo de 2Hz hasta 1.3MHz , asi tambien como un ajuste fino y grueso, ademas de su variacion de amplitud.
 
 <p align="center">
   <img src="Imagenes/Bueno%20y%20malo.jpg" alt="Descripción de la imagen" width="500">
 </p>
 
-#el gordo se la come
-## Especificaciones
-| Componente | Función                |
-|------------|------------------------|
-| XR2206CP   | Generador de señales   |
-| LM7812     | Regulador de voltaje   |
-| LM7912     | Regulador de voltaje   |
-| LM317      | Regulador ajustable    |
+
 
 ## Características
 
 | Característica                  | Detalle                                                    |
 |---------------------------------|------------------------------------------------------------|
-| **Entrada de alimentación**      | Tantos V                                                   |
+| **Entrada de alimentación**      | Transformador de 20V eficaces                           |
 | **Salidas de voltaje**           | +12V, -12V, 1.25V hasta 10V                               |
-| **Salidas de señal**             | Señal senoidal, señal cuadrada, señal triangular           |
-| **Variación de amplitud**        | Las señales generadas tienen ajuste de amplitud           |
-| **Rangos de frecuencia**         | Ver detalles en la tabla de escalas                          |
+| **Salidas de señal**             | Señal senoidal, cuadrada y triangular           |
+| **Variación de amplitud**        | Ajuste de amplitud de señales generadas (Senoidales y triangulares)      |
+| **Variación de frecuencia**      | Ajuste fino y gueso de frecuencia (detalles en la tabla de escalas)        |
 
 
 ### Escalas de Frecuencia
-Cada escala corresponde a las posiciones de un selector de izquierda a derecha
+Cada escala corresponde a las posiciones del selector de izquierda a derecha
 
 | Escala | Rango               |
 |--------|----------------------|
