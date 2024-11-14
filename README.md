@@ -35,28 +35,8 @@ Cada escala corresponde a las posiciones del selector de izquierda a derecha
 A continuación, se muestra un esquema básico de los puertos de entrada y salida de la fuente:
 
 ## Descripción del Hardware
-### Generador de Señales (XR2206CP)
-El integrado XR2206CP se utiliza para generar señales de baja frecuencia. Este componente permite seleccionar entre diferentes formas de onda y ajustar la frecuencia y amplitud de la señal.
-
-### Fuente de Alimentación
-La fuente de alimentación utiliza tres reguladores de voltaje:
-- **LM7812** para una salida fija de +12V.
-- **LM7912** para una salida fija de -12V.
-- **LM317** para una salida ajustable de 1.2V a 37V.
-
-Consulta el archivo [`hardware.md`](docs/hardware.md) para detalles completos del hardware y conexiones, o revisa los diagramas en la carpeta `circuit_diagrams`.
-
-## Seguridad
-Al trabajar con esta fuente de tensión, considera las siguientes medidas de seguridad:
-
-1. **Verifica todas las conexiones** antes de encender el circuito, para evitar cortocircuitos o errores de polaridad.
-2. **Evita el sobrecalentamiento:** Si utilizas la fuente por periodos prolongados, asegúrate de que tenga suficiente ventilación.
-3. **Precauciones al manejar voltajes elevados**: Siempre maneja los reguladores con cuidado, ya que pueden calentarse.
-
-Más detalles de seguridad están disponibles en [`seguridad.md`](docs/seguridad.md).
-
-## Instrucciones de Uso
-1. Conecta la entrada de alimentación de 12V a la entrada correspondiente.
-2. Selecciona la señal de salida deseada (senoidal, triangular o cuadrada) utilizando los ajustes del XR2206CP.
-3. Ajusta el voltaje de salida con el potenciómetro asociado al LM317 para obtener el voltaje deseado en la salida ajustable.
-4. Conecta los dispositivos externos a las salidas de voltaje y señal
+A continuación, se muestra el esquemático del circuito dividido en partes: por un lado, la generación de tensiones y, por otro, la generación de señales.
+Para la generacion de tensiones tenemos el esquematico del circuito de la fuente +-12V
+(IMAGEN)
+En cambio para la fuente regulable basado en el LM317 se tiene.
+(IMAGEN)
