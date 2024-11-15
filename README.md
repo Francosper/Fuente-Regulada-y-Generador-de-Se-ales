@@ -36,7 +36,21 @@ A continuación, se muestra un esquema básico de los puertos de entrada y salid
 
 ## Descripción del Hardware
 A continuación, se muestra el esquemático del circuito dividido en partes: por un lado, la generación de tensiones y, por otro, la generación de señales.
-Para la generacion de tensiones tenemos el esquematico del circuito de la fuente +-12V
+Para las tensiones tenemos el esquematico del circuito de la fuente +-12V
+
 (IMAGEN)
+
 En cambio para la fuente regulable basado en el LM317 se tiene.
+
 (IMAGEN)
+
+Por la parte de generacion de señales se tiene el siguiente esquema.
+
+(IMAGEN)
+
+El sistema cuenta con multiples bloques funcionales que realizan distintas tareas:
+  - asdf
+  - sdaf
+  - asdf
+  - as
+  - df
