@@ -93,7 +93,7 @@ Debajo de la imagen se describe el funcionamiento de cada uno de los bloques par
 
 Se proporcionan los archivos necesarios para la fabricación de la placa, ya sea de manera casera, mediante el uso de una CNC, o para su envío a empresas de producción de circuitos profesionales. También se tendrá una tabla de los componentes necesarios.
 
-Para descargar la carpeta con los archivos de KiCad visitar el siguiente link: (LINK)
+Para descargar la carpeta con los archivos de KiCad visitar el siguiente link: [Carpeta de arcivos de KiCad](Archivos/Fuente)
 
 A continuación, se muestra el esquema de las pistas del circuito utilizado.
 
@@ -106,6 +106,12 @@ La disposición de los componentes es la siguiente
 (IMAGEN)
 
 Fig.6: Disposición de los componentes del sistema.
+
+Si se desea descargar los esquematicos de las pistas para fabricar los PCB, se encuentran a continuacion:
+
+[Imagen de las pistas (Capa inferior)](Archivos/Fuente%20Generadora%201.0%20Cobre.pdf)
+
+[Imagen de los componentes (capa superior)](Archivos/Fuente%20Generadora%201.0%20Frente.pdf)
 
 ### Componentes
 
