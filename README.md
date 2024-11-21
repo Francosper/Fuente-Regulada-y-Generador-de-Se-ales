@@ -12,8 +12,6 @@ El generador de señales incorpora un mecanismo de ajuste tanto fino como grueso
 
 El artículo tiene como objetivo ofrecer una visión general de los componentes que componen el funcionamiento de la placa, abarcando sus principales características y especificaciones del sistema. Además, incluirá los archivos de software requeridos para su fabricacion, tales como los esquemas electrónicos, esquema de impresión de PCB, etc.
 
-Si se busca tener un entendimiento mas profundo de sistema, tales como las curvas de regulacion, respuesta en frecuencia y otros tipos de comportamientos, se recomienda leer la hoja de datos que se presenta a continuacion: [Hoja de datos](Archivos/Hoja_de_datos_Fuente_Regulable_y_generador.pdf)
-
 ## Caracteristicas
 
 A continuacion se nombran las caracteristicas de la placa 
@@ -95,23 +93,26 @@ Se proporcionan los archivos necesarios para la fabricación de la placa, ya sea
 
 Para descargar la carpeta con los archivos de KiCad visitar el siguiente link: [Carpeta de arcivos de KiCad](Archivos/Fuente)
 
-A continuación, se muestra el esquema de las pistas del circuito utilizado.
+A continuación, se muestran ambas caras de la placa.
 
-(IMAGEN)
+<p align="center">
+  <img src="Images/Pistas.png" width="400" style="display:inline-block;">
+  <br>
+  <em>Fig.5: Pistas para fabricación del PCB.</em>
+</p>
 
-Fig.5: Pistas para fabricación del PCB.
+<p align="center">
+  <img src="Images/Componentes_Frente.png" width="400" style="display:inline-block;">
+  <br>
+  <em>Fig.6: Disposición de los componentes del sistema.</em>
+</p>
 
-La disposición de los componentes es la siguiente
+Si se desea descargar los esquematicos mostrados, se encuentran a continuacion:
 
-(IMAGEN)
+- [Imagen de las pistas (Capa inferior)](Archivos/Fuente%20Generadora%201.0%20Cobre.pdf)
+- [Imagen de los componentes (capa superior)](Archivos/Fuente%20Generadora%201.0%20Frente.pdf)
 
-Fig.6: Disposición de los componentes del sistema.
-
-Si se desea descargar los esquematicos de las pistas para fabricar los PCB, se encuentran a continuacion:
-
-[Imagen de las pistas (Capa inferior)](Archivos/Fuente%20Generadora%201.0%20Cobre.pdf)
-
-[Imagen de los componentes (capa superior)](Archivos/Fuente%20Generadora%201.0%20Frente.pdf)
+Los componentes necesarios para la fabricacion son se ven en la siguiente tabla.
 
 ### Componentes
 
@@ -149,3 +150,5 @@ Si se desea descargar los esquematicos de las pistas para fabricar los PCB, se e
 | **R8**                    | Resistencia                   | 240Ω          |
 | **R9**                    | Resistencia                   | 680Ω          |
 | **R10**                   | Resistencia                   | 10kΩ          |
+
+Si se busca tener un entendimiento mas profundo de sistema, tales como las curvas de regulacion, respuesta en frecuencia y otros tipos de comportamientos, se recomienda leer la hoja de datos que se presenta a continuacion: [Hoja de datos](Archivos/Hoja_de_datos_Fuente_Regulable_y_generador.pdf)
