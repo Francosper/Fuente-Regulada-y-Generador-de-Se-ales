@@ -109,8 +109,8 @@ A continuación, se muestran ambas caras de la placa.
 
 Si se desea descargar los esquematicos mostrados, se encuentran a continuacion:
 
-- [Imagen de las pistas (Capa inferior)](Archivos/Fuente%20Generadora%201.0%20Cobre.pdf)
-- [Imagen de los componentes (capa superior)](Archivos/Fuente%20Generadora%201.0%20Frente.pdf)
+- [pistas (Capa inferior)](Archivos/Fuente%20Generadora%201.0%20Cobre.pdf)
+- [componentes (capa superior)](Archivos/Fuente%20Generadora%201.0%20Frente.pdf)
 
 Los componentes necesarios para la fabricacion son se ven en la siguiente tabla.
 
