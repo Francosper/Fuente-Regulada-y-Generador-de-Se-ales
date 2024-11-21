@@ -12,7 +12,7 @@ El generador de señales incorpora un mecanismo de ajuste tanto fino como grueso
 
 El artículo tiene como objetivo ofrecer una visión general de los componentes que componen el funcionamiento de la placa, abarcando sus principales características y especificaciones del sistema. Además, incluirá los archivos de software requeridos para su fabricacion, tales como los esquemas electrónicos, esquema de impresión de PCB, etc.
 
-Si se busca tener un entendimiento mas profundo de sistema, se recomienda leer la hoja de datos: Hoja_de_datos_Fuente_Regulable_y_generador
+Si se busca tener un entendimiento mas profundo de sistema, se recomienda leer la hoja de datos: [Hoja de datos](Archivos/Hoja_de_datos_Fuente_Regulable_y_generador.pdf)
 
 ## Caracteristicas
 | **Componente**                     | **Descripción**                                           |
