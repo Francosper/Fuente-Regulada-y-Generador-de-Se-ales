@@ -5,7 +5,7 @@ Este proyecto consiste en el diseño y desarrollo de una fuente de tensión regu
 El generador de señales incorpora un mecanismo de ajuste tanto fino como grueso. Además, cuenta con un control de amplitud que permite al usuario variar la amplitud de las señales generadas según se quiera, la placa se presenta a continuación. 
 
 <p align="center">
-  <img src="Imagenes/Bueno%20y%20malo.jpg" alt="imagen" width="500">
+  <img src="Imagenes/Bueno%20y%20malo.jpg" alt="PlacaFinal.jpg" width="500">
 </p>
 
 Fig. 1: Renderizado 3D del generador.
