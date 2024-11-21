@@ -5,14 +5,14 @@ Este proyecto consiste en el diseño y desarrollo de una fuente de tensión regu
 El generador de señales incorpora un mecanismo de ajuste tanto fino como grueso. Además, cuenta con un control de amplitud que permite al usuario variar la amplitud de las señales generadas según se quiera, la placa se presenta a continuación. 
 
 <p align="center">
-  <img src="Imagenes/Bueno%20y%20malo.jpg" alt="PlacaFinal.jpg" width="500">
+  <img src="Images/Placa_Kicad_Final.png" alt="Logo del proyecto" width="600">
+  <br>
+  <em>Fig 1: Renderizado de la fuente regulada y generador de señales</em>
 </p>
 
-Fig. 1: Renderizado 3D del generador.
+El artículo tiene como objetivo ofrecer una visión general de los componentes que componen el funcionamiento de la placa, abarcando sus principales características y especificaciones del sistema. Además, incluirá los archivos de software requeridos para su fabricacion, tales como los esquemas electrónicos, esquema de impresión de PCB, etc.
 
-El artículo tiene como objetivo ofrecer una visión general de los componentes que componen el funcionamiento de la placa, abarcando sus principales características y el propósito de cada componente, como también las características y especificaciones del sistema. Además, incluirá los archivos requeridos, tales como los esquemas electrónicos, esquema de impresión, etc.
-
-Si se busca tener un entendimiento mas profundo del tema, se recomienda leer la hoja de datos: (DATASHEET)
+Si se busca tener un entendimiento mas profundo de sistema, se recomienda leer la hoja de datos: Hoja_de_datos_Fuente_Regulable_y_generador
 
 ## Caracteristicas
 | **Componente**                     | **Descripción**                                           |
