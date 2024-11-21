@@ -12,10 +12,13 @@ El generador de señales incorpora un mecanismo de ajuste tanto fino como grueso
 
 El artículo tiene como objetivo ofrecer una visión general de los componentes que componen el funcionamiento de la placa, abarcando sus principales características y especificaciones del sistema. Además, incluirá los archivos de software requeridos para su fabricacion, tales como los esquemas electrónicos, esquema de impresión de PCB, etc.
 
-Si se busca tener un entendimiento mas profundo de sistema, se recomienda leer la hoja de datos: [Hoja de datos](Archivos/Hoja_de_datos_Fuente_Regulable_y_generador.pdf)
+Si se busca tener un entendimiento mas profundo de sistema, tales como las curvas de regulacion, respuesta en frecuencia y otros tipos de comportamientos, se recomienda leer la hoja de datos que se presenta a continuacion: [Hoja de datos](Archivos/Hoja_de_datos_Fuente_Regulable_y_generador.pdf)
 
 ## Caracteristicas
-| **Componente**                     | **Descripción**                                           |
+
+A continuacion se nombran las caracteristicas de la placa 
+
+| **Etapa**                     | **Descripción**                                           |
 |------------------------------------|-----------------------------------------------------------|
 | **Entrada de alimentación**        | Transformador de 20V eficaces                              |
 | **Salidas de voltaje fijo**        | +12V y -12V                                               |
@@ -40,33 +43,39 @@ Cada escala corresponde a las posiciones del selector de izquierda a derecha com
 
 ## Descripción general del hardware
 
-A continuación, se detallan los componentes utilizados en el diseño, y se explica su funcionalidad dividida en módulos para facilitar la comprensión de cada parte del sistema.
+Se detallan los componentes utilizados en el diseño, y se explica su funcionalidad dividida en módulos para facilitar la comprensión de cada parte del sistema.
 
 - ### Fuente regulable +-12V
 
 La implementación de la fuente consiste en un transformador reductor a 20 Volts eficaces. Mientras mayor sea la tensión eficaz de entrada peor es el rendimiento de la fuente, ya que esa tensión cae en los reguladores LM7812 y LM7912 aumentando la disipación de potencia teniendo la misma corriente de salida.
 
-(IMAGEN)
-
-Fig. 2: Esquemático de fuente regulada +-12V.
+<p align="center">
+  <img src="Images/EsquematicoFuente+-12V.png" alt="Logo del proyecto" width="600">
+  <br>
+  <em>Fig. 2: Esquemático de fuente regulada +-12V.</em>
+</p>
 
 - ### Fuente regulable 2V – 10V
 
 El circuito de la fuente regulable mostrado a continuación utiliza directamente la salida de 12V generada por el circuito anterior (Fig. 2). Este diseño incluye un potenciómetro de 2 kΩ para permitir la variación de tensión, complementado con capacitores de filtro.
 
-(IMAGEN)
+<p align="center">
+  <img src="Images/EsquematicoFuenteRegulable.png" alt="Logo del proyecto" width="300">
+  <br>
+  <em>Fig.3: Esquemático de fuente regulable 2V – 10V.</em>
+</p>
 
-Fig.3: Esquemático de fuente regulable 2V – 10V.
+
 
 - ### Generador de señales
 
-Se describe el funcionamiento de cada uno de los bloques representados en la siguiente imagen.
+Debajo de la imagen se describe el funcionamiento de cada uno de los bloques para un mejor entendimiento.
 
-(IMAGEN)
-
-Fig.4: Esquemático del circuito generador de señales.
-
-El propósito de cada uno de los bloques se describe a continuación.
+<p align="center">
+  <img src="Images/EsquematicoGenerador.png" alt="Logo del proyecto" width="600">
+  <br>
+  <em>Fig.4: Esquemático del circuito generador de señales.</em>
+</p>
 
 | **Bloque** | **Descripción**                                                                                                                                   |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,7 +83,7 @@ El propósito de cada uno de los bloques se describe a continuación.
 | 2          | Control de amplitud: Afecta solamente la salida senoidal y triangular, permitiendo ajustar la amplitud de estas señales.                         |
 | 3          | Control de frecuencia (parte resistiva): Modifica la resistencia del oscilador RC para variar la frecuencia de la señal de salida.                |
 | 4          | Control de frecuencia (parte capacitiva): Modifica la capacidad del oscilador RC para variar la frecuencia de la señal de salida.                 |
-| 5          | Selector de señales seno y triangular: Un switch permite intercambiar entre señales senoidal y triangular en el pin de salida. Si el switch permanece cerrado se obtiene una señal senoidal, y al abrirse se cambia a una señal triangular. |
+| 5          | Selector de señales seno y triangular: Un switch que permite intercambiar entre señal senoidal y triangular en el pin de salida. Si el switch permanece cerrado se obtiene una señal senoidal, de otro modo, se tendrá una señal tipo triangular. |
 | 6          | Salida de señales senoidal y triangular: Etapa de eliminación de continua, utilizando un operacional TL072 para aislar las señales y evitar la carga de la salida del XR2206. |
 | 7          | Salida de señal cuadrada: Se toma desde un divisor resistivo y no tiene control de amplitud.                                                     |
 
@@ -84,7 +93,7 @@ El propósito de cada uno de los bloques se describe a continuación.
 
 Se proporcionan los archivos necesarios para la fabricación de la placa, ya sea de manera casera, mediante el uso de una CNC, o para su envío a empresas de producción de circuitos profesionales. También se tendrá una tabla de los componentes necesarios.
 
-Para descargar la carpeta con los archivos de KiCad visitar la siguiente carpeta: (LINK)
+Para descargar la carpeta con los archivos de KiCad visitar el siguiente link: (LINK)
 
 A continuación, se muestra el esquema de las pistas del circuito utilizado.
 
